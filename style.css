@@ -269,3 +269,67 @@ a {
     border-radius: 50%;
     margin-top: -6px;
 }
+
+.album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album img {
+    height: 50px;
+    width: 50px;
+    margin: .5rem .5rem .5rem .25rem;
+    padding: 0 .5rem 0 .25rem;
+    border-radius: 5px;
+    justify-items: flex-start;
+}
+
+.album-info {
+    margin: 0 .5rem 0 .25rem;
+    padding: 0 .5rem 0 .5rem;
+}
+
+.album-info-tittle {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 .5rem .5rem .5rem ;
+}
+
+.album-info-des {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.album-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon1 {
+    margin: 0 .25rem 0 .25rem;
+    padding: 0 1rem 0 0;
+}
+
+.icon2 {
+    margin: 0 .25rem 0 .25rem;
+    padding: 0 1rem 0 0;
+}
+
+.icon {
+    padding: 0 .35rem 0 .35rem;
+    font-size: 1rem;
+}
+
+.vol::-webkit-slider-thumb {
+    background-color: #fff;
+}
+
+.vol::-webkit-slider-runnable-track {
+    height: .2rem;
+    margin-left: .1rem;
+    margin-bottom: .2rem;
+}
